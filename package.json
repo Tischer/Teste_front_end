@@ -1,0 +1,27 @@
+{
+    "name": "teste_front-end_eva",
+    "version": "1.0.1",
+    "main": "app.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Tischer/Teste_front_end.git"
+    },
+    "author": "Tischer <leotischer2509@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Tischer/Teste_front_end/issues"
+    },
+    "homepage": "https://github.com/Tischer/Teste_front_end#readme",
+    "scripts": {
+        "dev": "nodemon ./app.js"
+    },
+    "description": "",
+    "dependencies": {
+        "body-parser": "^1.19.2",
+        "express": "^4.17.3",
+        "express-handlebars": "^6.0.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
