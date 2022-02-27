@@ -1,41 +1,107 @@
-<!DOCTYPE html>
 <html lang="pt-bt">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="shortcut icon" href="/assets/Logo_Newsletter.png" type="image/x-icon">
-    <title>Miltiatak</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <div class="img_container">
-                <img src="\assets\icones_home\logo\logo-header.svg" alt="Multiatak">
-            </div>
-            <div class="container">
-                <form action="#" method="post" class="pesquisar">
-                    <input type="text" 
-                    name="input_pesquisar" 
-                    id="input_pesquisar" 
-                    class="input_pesquisar"
-                    placeholder="Digite oque você procura...">
-                    <button type="submit"><img src="\assets\icones_home\icones_header\botao-lupa.svg" alt="imgem"></button>
-                </form>
-                <img for="atendimento_header" src="/assets/icones_home/icones_header/atendimento.svg" alt="atendimento" class="header_img">
-                <select name="atendimento_header" id="atendimento_header" class="atendimento_header">
-                    <option hidden selected>Atendimento</option>
-                    <option>Atendimento1</option>
-                    <option>Atendimento2</option>
-                    <option>Atendimento3</option>
-                </select>
-            </div>
-        </nav>
-        <div class="menu">
 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/Logo_Newsletter.png"
+      type="image/x-icon"
+    />
+    <title>Miltiatak</title>
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <nav>
+          <div class="menu_top">
+            <div class="logo_container">
+              <img class="logo_header" src="\assets\icones_home\logo\logo-header.svg" alt="Multiatak logo">
+            </div>
+            <div class="cont">
+                <form action="/home" method="get">
+                  <input 
+                  type="text"
+                  name="pesquisa" 
+                  id="pesquisa" 
+                  class="pesquisa"
+                  placeholder="Digite aqui oque você procura...">
+                  <button type="submit"><img src="\assets\icones_home\icones_header\botao-lupa.svg" alt="Pesquisar"></button>
+                </form>
+                <div class="select">
+                  <img src="\assets\icones_home\icones_header\atendimento.svg" alt="">
+                  <select name="atendimento" id="atendimento" class="atendimento">
+                    <option disabled selected hidden>Atendimento</option>
+                    <option>Escolha</option>
+                    <option>Escolha</option>
+                    <option>Escolha</option>
+                  </select>
+                  <div class="select_arrow"></div>
+                </div>
+                <div class="select">
+                  <img src="\assets\icones_home\icones_header\minha-conta.svg" alt="">
+                  <select name="atendimento" id="atendimento" class="atendimento">
+                    <option disabled selected hidden>Minha conta</option>
+                    <option>Escolha</option>
+                    <option>Escolha</option>
+                    <option>Escolha</option>
+                  </select>
+                  <div class="select_arrow"></div>
+                </div>
+              </div>
+          </div>
+          <div class="menu_bottom">
+            <input type="checkbox" name="menu_hidder" id="menu_hidder" class="menu_hidder">
+            <label for="menu_hidder"><img src="\assets\icones_home\menu-hamburguer.svg" alt="Categorias">Todos os departamentos </label>
+            <div class="cont">
+              <a href="/home"><img src="\assets\icones_home\icones_categorias\som-e-video-vermelho.svg" alt="Som e vídeo">Som e vídeo</a>
+              <a href="/home"><img src="\assets\icones_home\icones_categorias\farois-lanternas-vermelho.svg" alt="Faróis lanternas e liuminação">Faróis lanternas e liuminação</a>
+              <a href="/home"><img src="\assets\icones_home\icones_categorias\acessorios-internos-vermelho.svg" alt="Acessórios internos">Acessórios internos</a>
+              <a href="/home"><img src="\assets\icones_home\icones_categorias\acessorios-externos-vermelho.svg" alt="Acessórios externos">Acessórios externos</a>
+              <a href="/home"><img src="\assets\icones_home\icones_categorias\vestuarios-vermelho.svg" alt="Vestuário">Vestuários</a>
+              <a href="/home"><img src="\assets\icones_home\icones_categorias\infantil-vermelho.svg" alt="Infantil">Infantil</a>
+              <form action="/home" method="get">
+                <button  class="carrinho"  type="submit"><img src="\assets\icones_home\icones_header\carrinho.svg" alt="Compras"></button>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div class="mobile_menu">
+          <div class="mobile_menu_top">
+            <input type="checkbox" name="mobile_hidden_menu" id="mobile_hidden_menu" class="hidden_menu">
+            <label for="mobile_hidden_menu"><img src="\assets\icones_home\menu-hamburguer.svg" alt=""></label>
+            <div class="categorias">
+              <div class="cont">
+                <a href="/home"><img src="\assets\icones_home\icones_categorias\som-e-video-vermelho.svg" alt="Som e vídeo">Som e vídeo</a>
+                <a href="/home"><img src="\assets\icones_home\icones_categorias\farois-lanternas-vermelho.svg" alt="Faróis lanternas e liuminação">Faróis lanternas e liuminação</a>
+                <a href="/home"><img src="\assets\icones_home\icones_categorias\acessorios-internos-vermelho.svg" alt="Acessórios internos">Acessórios internos</a>
+                <a href="/home"><img src="\assets\icones_home\icones_categorias\acessorios-externos-vermelho.svg" alt="Acessórios externos">Acessórios externos</a>
+                <a href="/home"><img src="\assets\icones_home\icones_categorias\vestuarios-vermelho.svg" alt="Vestuário">Vestuários</a>
+                <a href="/home"><img src="\assets\icones_home\icones_categorias\infantil-vermelho.svg" alt="Infantil">Infantil</a>
+              </div>
+            </div>
+            <img class="logo" src="\assets\icones_home\logo\logo-header.svg" alt="Multiatak">
+            <img class="minha_conta" src="\assets\icones_home\icones_header\minha-conta-cinza.svg" alt="">
+            <form action="/home" method="get">
+              <button type="submit"><img src="\assets\icones_home\icones_header\carrinho.svg" alt=""></button>
+            </form>
+          </div>
+          <div class="mobile_menu_bottom">
+            <img class="triangulo_branco" src="\assets\icones_home\icones_header\triangulo-branco.svg" alt="">
+            <input type="text" 
+            name="pesquisa" 
+            id="pesquisa" 
+            class="pesquisa"
+            placeholder="Pesquisa aqui oque você procura...">
+            <img class="ico_pesquisa" src="\assets\icones_home\icones_header\lupa-sozinha.svg" alt="">
+          </div>
         </div>
-    </header>
-    {{{body}}}
-</body>
+      </header>
+      {{{body}}}
+    </main>
+  </body>
+
 </html>
