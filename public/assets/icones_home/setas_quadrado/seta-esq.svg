@@ -5,7 +5,7 @@
 	 xml:space="preserve">
 <g>
 	
-		<rect x="11.1" y="11.1" transform="matrix(0.7071 0.7071 -0.7071 0.7071 37.5866 -15.5689)" fill="#F1F1F1" width="53" height="53"/>
+		<rect x="11.1" y="11.1" transform="matrix(0.7071 0.7071 -0.7071 0.7071 37.5866 -15.5689)" fill="#c2c2c2" width="53" height="53"/>
 	<g>
 		<polygon points="39.2,47.9 28.9,37.6 39.2,27.2 39.9,27.9 30.3,37.6 39.9,47.2 		"/>
 	</g>
