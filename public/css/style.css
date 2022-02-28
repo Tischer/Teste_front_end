@@ -697,7 +697,7 @@ header nav .menu_bottom .cont a:hover {
     display: none;
 }
 
-.item:hover>.comprar {
+.item:hover>.button_item .comprar {
     display: flex;
 }
 
@@ -965,5 +965,145 @@ header nav .menu_bottom .cont a:hover {
         height: 3.5rem;
         width: 10rem;
         margin: .5rem;
+    }
+}
+
+
+/* Footer */
+
+footer {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1b1b1b;
+}
+
+footer .menu {
+    height: 50%;
+    width: 80rem;
+    display: flex;
+}
+
+footer .menu .cont {
+    height: 20rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 1rem;
+}
+
+footer .menu .cont .title {
+    color: #d1d1d1;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+footer .menu .cont ul {
+    list-style: none;
+}
+
+footer .menu .cont .contlast {
+    display: flex;
+}
+
+footer .menu .cont .contlast li,
+footer .menu .cont .contlast li a {
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+}
+
+footer .menu .cont ul li,
+footer .menu .cont ul li a {
+    color: #d1d1d1;
+    padding: 0.5rem 0rem;
+}
+
+footer .infor {
+    display: flex;
+    height: fit-content;
+    width: 80rem;
+}
+
+footer .infor .metodos_de_pagamento,
+footer .infor .meios_de_transporte {
+    height: 10rem;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .infor {
+    border-bottom: solid #9e9e9e 1px;
+}
+
+footer .infor .metodos_de_pagamento .info,
+footer .infor .meios_de_transporte .info {
+    color: #d1d1d1;
+    font-size: 1.5rem;
+}
+
+footer .infor .metodos_de_pagamento img,
+footer .infor .meios_de_transporte img {
+    width: 4rem;
+    margin: 0 .5rem;
+}
+
+footer .copyright {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .copyright img {
+    width: 15rem;
+    margin: 2rem;
+}
+
+footer .copyright .copy {
+    font-size: 1rem;
+    color: #9e9e9e;
+    padding: 1rem;
+}
+
+footer .cred {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+footer .cred img {
+    width: 10rem;
+}
+
+
+/* Footer responsividade */
+
+@media(max-width: 1188px) {
+    footer .menu {
+        height: fit-content;
+        width: 90%;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0 0.5rem;
+    }
+    footer .infor {
+        flex-wrap: wrap;
+        height: fit-content;
+        width: 90%;
+    }
+    footer .infor .metodos_de_pagamento,
+    footer .infor .meios_de_transporte {
+        width: 100%;
     }
 }
