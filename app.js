@@ -35,7 +35,7 @@ app.use(express.static(path.join(__dirname, "./public")))
 
 //Routes
 
-app.use('/home', home);
+app.use('/', home);
 
 //Start server
 

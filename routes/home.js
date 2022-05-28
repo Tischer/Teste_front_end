@@ -9,7 +9,7 @@ const router = express.Router();
 // Set router routes
 
 router.get('/', (req, res) => {
-    res.render('home');
+    res.render('../views/home');
 });
 
 
