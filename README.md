@@ -1,14 +1,18 @@
 ### Tarefa front-end
 
-#Instale o conteudo na maquina
+Instale o conteudo na maquina
 
-#Abra a pasta no vscode
+Abra a pasta no vscode
 
-#Instale as dependdencias
+Instale as dependdencias
 
-#yarn
+yarn
 
 ## Para abrir o servidor use: 
 
-#yarn dev
+yarn dev
+
+
+
+### A explixação do porque eu fiz dessa maneira está no teams.
 
